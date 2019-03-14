@@ -1,4 +1,9 @@
-# Compiled class file
+# Java
+/bin/
+.idea/*
+.classpath*
+.project*
+*.iml
 *.class
 
 # Log file
