@@ -1,6 +1,6 @@
 # Java
 /bin/
-.idea/*
+.idea/
 .classpath*
 .project*
 *.iml
