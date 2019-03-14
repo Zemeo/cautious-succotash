@@ -1,19 +1,28 @@
 /**
- *
+ *  This class is used to build a Binary Tree
+ *  It includes 2 classes, BinarySearchTree and Node
  */
-public class BinaryTree{
+
+
+/**
+ * This class contains the logic for performing operations upon a Binary Search Tree
+ *
+ * A binary search tree (BST) or "ordered binary tree" is a type of binary tree where the nodes are arranged in order: for each node,
+ * all elements in its left subtree are less than the node, and all the elements in its right subtree are greater than the node.
+ */
+public class BinarySearchTree{
 
     public Node root;
 
     /**
-     *  When creating a new BinaryTree the root Node is set to null to signify an empty tree
+     *  When creating a new BST the root Node is set to null to signify an empty tree
      */
-    public BinaryTree() {
+    public BinarySearchTree() {
         root = null;
     }
 
     /**
-     * Method to add a value to the BinaryTree
+     * Method to add a value to the BST
      *
      * @param value The value to be assigned to a Node and inserted
      */
@@ -34,7 +43,7 @@ public class BinaryTree{
     }
 
     /**
-     *  Method to remove a value from the BinaryTree
+     *  Method to remove a value from the BST
      *
      * @param value The value that is to be deleted     *
      * @return  returns true if the value was deleted and false if not
